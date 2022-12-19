@@ -1,0 +1,27 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
+    Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  color: whitesmoke;
+  min-height: 90vh;
+}
+
+p {
+  margin: 0.25rem;
+  display: block;
+  background: #1e1e1e;
+  border-radius: 0.5rem;
+  padding: 0.25rem 0.5rem;
+  border: 1px solid #333;
+}
+
+div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+}
